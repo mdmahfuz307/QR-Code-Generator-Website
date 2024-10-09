@@ -1,6 +1,6 @@
 let imgBox = document.getElementById("imgBox");
 let qrImage = document.getElementById("qrImage");
-let qrText = document.getElementById("grText"); // Corrected ID
+let qrText = document.getElementById("grText"); 
 
 function generateQR(){
     if(qrText.value.length > 0){
